@@ -1,0 +1,33 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  team: one
+  position: MyString
+  player_id: MyString
+  names: 
+  aliases: MyString
+  years_in_league: 1
+  school: MyString
+  age: 1
+  birthday: 2025-02-19 10:23:52
+  nationality: MyString
+  weight: MyString
+  height: MyString
+  jersey_number: MyString
+  team_group: MyString
+
+two:
+  team: two
+  position: MyString
+  player_id: MyString
+  names: 
+  aliases: MyString
+  years_in_league: 1
+  school: MyString
+  age: 1
+  birthday: 2025-02-19 10:23:52
+  nationality: MyString
+  weight: MyString
+  height: MyString
+  jersey_number: MyString
+  team_group: MyString

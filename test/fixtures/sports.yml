@@ -1,0 +1,19 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  sport_id_string: MyString
+  name: MyString
+  has_meaningful_home_away: false
+  clock_type: 1
+  base_periods: MyString
+  extra_periods: MyString
+  meta: 
+
+two:
+  sport_id_string: MyString
+  name: MyString
+  has_meaningful_home_away: false
+  clock_type: 1
+  base_periods: MyString
+  extra_periods: MyString
+  meta: 

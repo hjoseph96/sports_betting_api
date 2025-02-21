@@ -1,0 +1,23 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  stat_type: MyString
+  stat_id: MyString
+  supported_levels: 
+  displays: 
+  supported_sports: 
+  can_decrease: false
+  deescription: MyString
+  is_score_stat: false
+  units: 
+
+two:
+  stat_type: MyString
+  stat_id: MyString
+  supported_levels: 
+  displays: 
+  supported_sports: 
+  can_decrease: false
+  deescription: MyString
+  is_score_stat: false
+  units: 

@@ -1,0 +1,21 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  event_id: MyString
+  league: one
+  event_type: 1
+  info: 
+  status: 
+  results: 
+  home_team_id: 
+  away_team_id: 
+
+two:
+  event_id: MyString
+  league: two
+  event_type: 1
+  info: 
+  status: 
+  results: 
+  home_team_id: 
+  away_team_id: 

@@ -1,0 +1,17 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  parlay: one
+  event: one
+  odds: one
+  bet_type: 1
+  selected_outcome: MyString
+  status: 1
+
+two:
+  parlay: two
+  event: two
+  odds: two
+  bet_type: 1
+  selected_outcome: MyString
+  status: 1

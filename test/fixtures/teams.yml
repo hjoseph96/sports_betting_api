@@ -1,0 +1,13 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  sport: one
+  league: one
+  team_id: MyString
+  meta: 
+
+two:
+  sport: two
+  league: two
+  team_id: MyString
+  meta: 

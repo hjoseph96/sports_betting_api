@@ -1,0 +1,2021 @@
+{
+  "nextCursor": "n.AJ_TERRELL_1_NFL",
+  "success": true,
+  "data": [
+    {
+      "sportID": "FOOTBALL",
+      "leagueID": "NFL",
+      "playerID": "AARON_BANKS_1_NFL",
+      "jerseyNumber": "65",
+      "yearsInLeague": 4,
+      "school": "Notre Dame",
+      "position": "G",
+      "age": 27,
+      "teamGroup": "Injured Reserve Or O",
+      "names": {
+        "display": "Aaron Banks",
+        "firstName": "Aaron",
+        "lastName": "Banks"
+      },
+      "height": "6' 5\"",
+      "weight": "325 lbs",
+      "aliases": [
+        "AARON_BANKS_SAN_FRANCISCO_49ERS_NFL"
+      ],
+      "birthday": "1997-09-03",
+      "teamID": "SAN_FRANCISCO_49ERS_NFL"
+    },
+    {
+      "position": "LB",
+      "playerID": "AARON_BEASLEY_1_NFL",
+      "teamGroup": "Defense",
+      "sportID": "FOOTBALL",
+      "school": "Tennessee",
+      "leagueID": "NFL",
+      "jerseyNumber": 0,
+      "names": {
+        "display": "Aaron Beasley",
+        "firstName": "Aaron",
+        "lastName": "Beasley"
+      },
+      "height": "6' 1\"",
+      "weight": "225 lbs",
+      "aliases": [
+        "AARON_BEASLEY_CAROLINA_PANTHERS_NFL"
+      ],
+      "teamID": "CAROLINA_PANTHERS_NFL"
+    },
+    {
+      "sportID": "FOOTBALL",
+      "leagueID": "NFL",
+      "position": "LS",
+      "playerID": "AARON_BREWER_1_NFL",
+      "jerseyNumber": "46",
+      "names": {
+        "display": "Aaron Brewer",
+        "firstName": "Aaron",
+        "lastName": "Brewer"
+      },
+      "aliases": [
+        "AARON_BREWER_ARIZONA_CARDINALS_NFL"
+      ],
+      "birthday": "1990-07-05",
+      "teamID": "ARIZONA_CARDINALS_NFL"
+    },
+    {
+      "sportID": "FOOTBALL",
+      "school": "Texas State",
+      "leagueID": "NFL",
+      "jerseyNumber": "55",
+      "age": 27,
+      "playerID": "AARON_BREWER_2_NFL",
+      "teamGroup": "Offense",
+      "position": "C",
+      "yearsInLeague": 5,
+      "names": {
+        "display": "Aaron Brewer",
+        "firstName": "Aaron",
+        "lastName": "Brewer"
+      },
+      "height": "6' 1\"",
+      "weight": "295 lbs",
+      "aliases": [
+        "AARON_BREWER_MIAMI_DOLPHINS_NFL",
+        "AARON_BREWER_TENNESSEE_TITANS_NFL"
+      ],
+      "birthday": "1997-10-28",
+      "teamID": "MIAMI_DOLPHINS_NFL"
+    },
+    {
+      "sportID": "FOOTBALL",
+      "leagueID": "NFL",
+      "position": "LB",
+      "playerID": "AARON_CASEY_1_NFL",
+      "teamGroup": "Defense",
+      "school": "Indiana",
+      "age": 24,
+      "jerseyNumber": 44,
+      "names": {
+        "display": "Aaron Casey",
+        "firstName": "Aaron",
+        "lastName": "Casey"
+      },
+      "height": "6' 1\"",
+      "weight": "231 lbs",
+      "aliases": [
+        "AARON_CASEY_CINCINNATI_BENGALS_NFL"
+      ],
+      "teamID": "CINCINNATI_BENGALS_NFL"
+    },
+    {
+      "yearsInLeague": 10,
+      "sportID": "FOOTBALL",
+      "school": "Pittsburgh",
+      "leagueID": "NFL",
+      "position": "DT",
+      "age": 32,
+      "playerID": "AARON_DONALD_1_NFL",
+      "teamGroup": "Defense",
+      "jerseyNumber": 99,
+      "names": {
+        "display": "Aaron Donald",
+        "firstName": "Aaron",
+        "lastName": "Donald"
+      },
+      "salary": "$33,500,000",
+      "height": "6' 1\"",
+      "weight": "280 lbs",
+      "aliases": [
+        "AARON_DONALD_LOS_ANGELES_RAMS_NFL"
+      ],
+      "teamID": ""
+    },
+    {
+      "sportID": "FOOTBALL",
+      "school": "UTEP",
+      "leagueID": "NFL",
+      "position": "RB",
+      "age": 30,
+      "playerID": "AARON_JONES_1_NFL",
+      "teamGroup": "Offense",
+      "jerseyNumber": "33",
+      "yearsInLeague": 8,
+      "names": {
+        "display": "Aaron Jones",
+        "firstName": "Aaron",
+        "lastName": "Jones"
+      },
+      "salary": "$12,348,000",
+      "height": "5' 9\"",
+      "weight": "208 lbs",
+      "aliases": [
+        "AARON_JONES_GREEN_BAY_PACKERS_NFL",
+        "AARON_JONES_MINNESOTA_VIKINGS_NFL"
+      ],
+      "birthday": "1994-12-02",
+      "teamID": "MINNESOTA_VIKINGS_NFL"
+    },
+    {
+      "yearsInLeague": 3,
+      "sportID": "FOOTBALL",
+      "school": "Eastern Kentucky",
+      "leagueID": "NFL",
+      "jerseyNumber": 94,
+      "position": "LB",
+      "age": 26,
+      "playerID": "AARON_PATRICK_1_NFL",
+      "teamGroup": "Defense",
+      "names": {
+        "display": "Aaron Patrick",
+        "firstName": "Aaron",
+        "lastName": "Patrick"
+      },
+      "salary": "$3,334",
+      "height": "6' 4\"",
+      "weight": "245 lbs",
+      "aliases": [
+        "AARON_PATRICK_DENVER_BRONCOS_NFL"
+      ],
+      "teamID": ""
+    },
+    {
+      "sportID": "FOOTBALL",
+      "school": "California",
+      "leagueID": "NFL",
+      "position": "QB",
+      "playerID": "AARON_RODGERS_1_NFL",
+      "teamGroup": "Offense",
+      "jerseyNumber": "8",
+      "yearsInLeague": 20,
+      "age": 41,
+      "names": {
+        "display": "Aaron Rodgers",
+        "firstName": "Aaron",
+        "lastName": "Rodgers"
+      },
+      "salary": "$66,161,112",
+      "height": "6' 2\"",
+      "weight": "223 lbs",
+      "aliases": [
+        "AARON_RODGERS_NEW_YORK_JETS_NFL"
+      ],
+      "birthday": "1983-12-02",
+      "teamID": "NEW_YORK_JETS_NFL"
+    },
+    {
+      "yearsInLeague": 1,
+      "sportID": "FOOTBALL",
+      "school": "Harvard",
+      "leagueID": "NFL",
+      "position": "RB",
+      "age": 25,
+      "playerID": "AARON_SHAMPKLIN_1_NFL",
+      "teamGroup": "Offense",
+      "jerseyNumber": "33",
+      "names": {
+        "display": "Aaron Shampklin",
+        "firstName": "Aaron",
+        "lastName": "Shampklin"
+      },
+      "salary": "0-",
+      "height": "5' 10\"",
+      "weight": "195 lbs",
+      "aliases": [
+        "AARON_SHAMPKLIN_LOS_ANGELES_CHARGERS_NFL"
+      ],
+      "birthday": "1999-10-18",
+      "teamID": "PITTSBURGH_STEELERS_NFL"
+    },
+    {
+      "sportID": "FOOTBALL",
+      "leagueID": "NFL",
+      "position": "G",
+      "playerID": "AARON_STINNIE_1_NFL",
+      "jerseyNumber": "64",
+      "names": {
+        "display": "Aaron Stinnie",
+        "firstName": "Aaron",
+        "lastName": "Stinnie"
+      },
+      "aliases": [
+        "AARON_STINNIE_TAMPA_BAY_BUCCANEERS_NFL"
+      ],
+      "birthday": "1994-02-18",
+      "age": 30,
+      "height": "6' 3\"",
+      "weight": "312 lbs",
+      "school": "James Madison",
+      "yearsInLeague": 7,
+      "teamGroup": "Offense",
+      "teamID": "NEW_YORK_GIANTS_NFL"
+    },
+    {
+      "yearsInLeague": 4,
+      "school": "Bucknell",
+      "position": "DT",
+      "age": 29,
+      "playerID": "ABDULLAH_ANDERSON_1_NFL",
+      "sportID": "FOOTBALL",
+      "leagueID": "NFL",
+      "jerseyNumber": "78",
+      "teamGroup": "Defense",
+      "names": {
+        "display": "Abdullah Anderson",
+        "firstName": "Abdullah",
+        "lastName": "Anderson"
+      },
+      "height": "6' 4\"",
+      "weight": "295 lbs",
+      "aliases": [
+        "ABDULLAH_ANDERSON_TENNESSEE_TITANS_NFL",
+        "ABDULLAH_ANDERSON_WASHINGTON_COMMANDERS_NFL"
+      ],
+      "birthday": "1996-01-24",
+      "teamID": "TENNESSEE_TITANS_NFL"
+    },
+    {
+      "leagueID": "NFL",
+      "sportID": "FOOTBALL",
+      "names": {
+        "display": "Abraham Beauplan",
+        "firstName": "Abraham",
+        "lastName": "Beauplan"
+      },
+      "jerseyNumber": 48,
+      "position": "LB",
+      "age": 25,
+      "height": "6' 2\"",
+      "weight": "235 lbs",
+      "school": "Marshall",
+      "yearsInLeague": 1,
+      "teamGroup": "Defense",
+      "playerID": "ABRAHAM_BEAUPLAN_1_NFL",
+      "teamID": "DETROIT_LIONS_NFL"
+    },
+    {
+      "sportID": "FOOTBALL",
+      "leagueID": "NFL",
+      "playerID": "ABRAHAM_LUCAS_1_NFL",
+      "jerseyNumber": "72",
+      "position": "OT",
+      "names": {
+        "display": "Abraham Lucas",
+        "firstName": "Abraham",
+        "lastName": "Lucas"
+      },
+      "aliases": [
+        "ABRAHAM_LUCAS_SEATTLE_SEAHAWKS_NFL"
+      ],
+      "birthday": "1998-10-25",
+      "teamID": "SEATTLE_SEAHAWKS_NFL"
+    },
+    {
+      "yearsInLeague": 2,
+      "sportID": "FOOTBALL",
+      "school": "Baylor",
+      "leagueID": "NFL",
+      "jerseyNumber": 41,
+      "position": "RB",
+      "age": 24,
+      "playerID": "ABRAM_SMITH_1_NFL",
+      "teamGroup": "Offense",
+      "names": {
+        "display": "Abram Smith",
+        "firstName": "Abram",
+        "lastName": "Smith"
+      },
+      "salary": "0-",
+      "height": "5' 11\"",
+      "weight": "221 lbs",
+      "aliases": [
+        "ABRAM_SMITH_MINNESOTA_VIKINGS_NFL"
+      ],
+      "teamID": ""
+    },
+    {
+      "yearsInLeague": 5,
+      "sportID": "FOOTBALL",
+      "school": "Vanderbilt",
+      "leagueID": "NFL",
+      "position": "DT",
+      "age": 29,
+      "playerID": "ADAM_BUTLER_1_NFL",
+      "teamGroup": "Defense",
+      "jerseyNumber": "69",
+      "names": {
+        "display": "Adam Butler",
+        "firstName": "Adam",
+        "lastName": "Butler"
+      },
+      "salary": "$485,800",
+      "height": "6' 5\"",
+      "weight": "300 lbs",
+      "aliases": [
+        "ADAM_BUTLER_LAS_VEGAS_RAIDERS_NFL"
+      ],
+      "birthday": "1994-04-12",
+      "teamID": "LAS_VEGAS_RAIDERS_NFL"
+    },
+    {
+      "sportID": "FOOTBALL",
+      "school": "Georgia Tech",
+      "leagueID": "NFL",
+      "position": "DT",
+      "age": 32,
+      "playerID": "ADAM_GOTSIS_1_NFL",
+      "teamGroup": "Defense",
+      "jerseyNumber": 97,
+      "yearsInLeague": 9,
+      "names": {
+        "display": "Adam Gotsis",
+        "firstName": "Adam",
+        "lastName": "Gotsis"
+      },
+      "salary": "$125,000",
+      "height": "6' 4\"",
+      "weight": "287 lbs",
+      "aliases": [
+        "ADAM_GOTSIS_JACKSONVILLE_JAGUARS_NFL"
+      ],
+      "teamID": "INDIANAPOLIS_COLTS_NFL"
+    },
+    {
+      "yearsInLeague": 8,
+      "sportID": "FOOTBALL",
+      "school": "Clemson",
+      "leagueID": "NFL",
+      "jerseyNumber": 27,
+      "position": "WR",
+      "age": 30,
+      "playerID": "ADAM_HUMPHRIES_1_NFL",
+      "teamGroup": "Offense",
+      "names": {
+        "display": "Adam Humphries",
+        "firstName": "Adam",
+        "lastName": "Humphries"
+      },
+      "salary": "0-",
+      "height": "5' 11\"",
+      "weight": "195 lbs",
+      "aliases": [
+        "ADAM_HUMPHRIES_HOUSTON_TEXANS_NFL"
+      ],
+      "teamID": ""
+    },
+    {
+      "sportID": "FOOTBALL",
+      "school": "South Carolina",
+      "leagueID": "NFL",
+      "position": "FB",
+      "playerID": "ADAM_PRENTICE_1_NFL",
+      "teamGroup": "Offense",
+      "jerseyNumber": "46",
+      "yearsInLeague": 4,
+      "age": 28,
+      "names": {
+        "display": "Adam Prentice",
+        "firstName": "Adam",
+        "lastName": "Prentice"
+      },
+      "height": "6' 0\"",
+      "weight": "245 lbs",
+      "aliases": [
+        "ADAM_PRENTICE_NEW_ORLEANS_SAINTS_NFL"
+      ],
+      "birthday": "1997-01-16",
+      "teamID": "NEW_ORLEANS_SAINTS_NFL"
+    },
+    {
+      "sportID": "FOOTBALL",
+      "leagueID": "NFL",
+      "position": "WR",
+      "playerID": "ADAM_THIELEN_1_NFL",
+      "yearsInLeague": 11,
+      "school": "Minnesota State",
+      "age": 34,
+      "jerseyNumber": "19",
+      "teamGroup": "Offense",
+      "names": {
+        "display": "Adam Thielen",
+        "firstName": "Adam",
+        "lastName": "Thielen"
+      },
+      "salary": "$11,168,000",
+      "height": "6' 2\"",
+      "weight": "195 lbs",
+      "aliases": [
+        "ADAM_THIELEN_CAROLINA_PANTHERS_NFL"
+      ],
+      "birthday": "1990-08-22",
+      "teamID": "CAROLINA_PANTHERS_NFL"
+    },
+    {
+      "sportID": "FOOTBALL",
+      "school": "Dayton",
+      "leagueID": "NFL",
+      "position": "TE",
+      "playerID": "ADAM_TRAUTMAN_1_NFL",
+      "teamGroup": "Offense",
+      "jerseyNumber": "82",
+      "age": 28,
+      "yearsInLeague": 5,
+      "names": {
+        "display": "Adam Trautman",
+        "firstName": "Adam",
+        "lastName": "Trautman"
+      },
+      "height": "6' 5\"",
+      "weight": "253 lbs",
+      "aliases": [
+        "ADAM_TRAUTMAN_DENVER_BRONCOS_NFL"
+      ],
+      "birthday": "1997-02-05",
+      "teamID": "DENVER_BRONCOS_NFL"
+    },
+    {
+      "yearsInLeague": 1,
+      "sportID": "FOOTBALL",
+      "leagueID": "NFL",
+      "jerseyNumber": 75,
+      "position": "DE",
+      "age": 26,
+      "playerID": "ADEDAYO_ODELEYE_1_NFL",
+      "teamGroup": "Defense",
+      "names": {
+        "display": "Adedayo Odeleye",
+        "firstName": "Adedayo",
+        "lastName": "Odeleye"
+      },
+      "height": "6' 5\"",
+      "weight": "271 lbs",
+      "aliases": [
+        "ADEDAYO_ODELEYE_HOUSTON_TEXANS_NFL"
+      ],
+      "teamID": ""
+    },
+    {
+      "yearsInLeague": 4,
+      "sportID": "FOOTBALL",
+      "school": "Notre Dame",
+      "leagueID": "NFL",
+      "jerseyNumber": "48",
+      "position": "LB",
+      "age": 26,
+      "playerID": "ADETOKUNBO_OGUNDEJI_1_NFL",
+      "teamGroup": "Practice Squad",
+      "names": {
+        "display": "Adetokunbo Ogundeji",
+        "firstName": "Adetokunbo",
+        "lastName": "Ogundeji"
+      },
+      "salary": "$60,038",
+      "height": "6' 4\"",
+      "weight": "268 lbs",
+      "aliases": [
+        "ADETOKUNBO_OGUNDEJI_ATLANTA_FALCONS_NFL"
+      ],
+      "birthday": "1998-10-09",
+      "teamID": "PITTSBURGH_STEELERS_NFL"
+    },
+    {
+      "sportID": "FOOTBALL",
+      "school": "Northwestern",
+      "leagueID": "NFL",
+      "playerID": "ADETOMIWA_ADEBAWORE_1_NFL",
+      "teamGroup": "Defense",
+      "jerseyNumber": "95",
+      "yearsInLeague": 2,
+      "age": 23,
+      "position": "DT",
+      "names": {
+        "display": "Adetomiwa Adebawore",
+        "firstName": "Adetomiwa",
+        "lastName": "Adebawore"
+      },
+      "salary": "$597,681",
+      "height": "6' 2\"",
+      "weight": "282 lbs",
+      "aliases": [
+        "ADETOMIWA_ADEBAWORE_INDIANAPOLIS_COLTS_NFL"
+      ],
+      "birthday": "2001-03-04",
+      "teamID": "INDIANAPOLIS_COLTS_NFL"
+    },
+    {
+      "teamGroup": "Defense",
+      "school": "Penn State",
+      "jerseyNumber": "50",
+      "playerID": "ADISA_ISAAC_1_NFL",
+      "sportID": "FOOTBALL",
+      "leagueID": "NFL",
+      "position": "LB",
+      "age": 23,
+      "names": {
+        "display": "Adisa Isaac",
+        "firstName": "Adisa",
+        "lastName": "Isaac"
+      },
+      "height": "6' 4\"",
+      "weight": "253 lbs",
+      "aliases": [
+        "ADISA_ISAAC_BALTIMORE_RAVENS_NFL"
+      ],
+      "birthday": "2001-10-04",
+      "teamID": "BALTIMORE_RAVENS_NFL"
+    },
+    {
+      "leagueID": "NFL",
+      "sportID": "FOOTBALL",
+      "names": {
+        "display": "Adonai Mitchell",
+        "firstName": "Adonai",
+        "lastName": "Mitchell"
+      },
+      "jerseyNumber": "10",
+      "position": "WR",
+      "age": 22,
+      "height": "6' 2\"",
+      "weight": "205 lbs",
+      "school": "Texas",
+      "teamGroup": "Offense",
+      "playerID": "ADONAI_MITCHELL_1_NFL",
+      "birthday": "2002-10-08",
+      "teamID": "INDIANAPOLIS_COLTS_NFL"
+    },
+    {
+      "sportID": "FOOTBALL",
+      "school": "USC",
+      "leagueID": "NFL",
+      "playerID": "ADOREE_JACKSON_1_NFL",
+      "teamGroup": "Defense",
+      "position": "CB",
+      "yearsInLeague": 8,
+      "jerseyNumber": "21",
+      "age": 29,
+      "names": {
+        "display": "Adoree' Jackson",
+        "firstName": "Adoree'",
+        "lastName": "Jackson"
+      },
+      "salary": "$2,988,334",
+      "height": "5' 11\"",
+      "weight": "185 lbs",
+      "aliases": [
+        "ADOREE_JACKSON_NEW_YORK_GIANTS_NFL"
+      ],
+      "birthday": "1995-09-18",
+      "teamID": "NEW_YORK_GIANTS_NFL"
+    },
+    {
+      "yearsInLeague": 10,
+      "sportID": "FOOTBALL",
+      "school": "Penn State",
+      "leagueID": "NFL",
+      "age": 31,
+      "playerID": "ADRIAN_AMOS_1_NFL",
+      "teamGroup": "Defense",
+      "jerseyNumber": 43,
+      "position": "S",
+      "names": {
+        "display": "Adrian Amos",
+        "firstName": "Adrian",
+        "lastName": "Amos"
+      },
+      "height": "6' 0\"",
+      "weight": "214 lbs",
+      "aliases": [
+        "ADRIAN_AMOS_HOUSTON_TEXANS_NFL"
+      ],
+      "teamID": "JACKSONVILLE_JAGUARS_NFL"
+    },
+    {
+      "yearsInLeague": 6,
+      "sportID": "FOOTBALL",
+      "school": "Miami",
+      "leagueID": "NFL",
+      "playerID": "ADRIAN_COLBERT_1_NFL",
+      "position": "S",
+      "jerseyNumber": 24,
+      "age": 31,
+      "teamGroup": "Defense",
+      "names": {
+        "display": "Adrian Colbert",
+        "firstName": "Adrian",
+        "lastName": "Colbert"
+      },
+      "salary": "0-",
+      "height": "6' 2\"",
+      "weight": "205 lbs",
+      "aliases": [
+        "ADRIAN_COLBERT_CHICAGO_BEARS_NFL"
+      ],
+      "teamID": "CHICAGO_BEARS_NFL"
+    },
+    {
+      "leagueID": "NFL",
+      "sportID": "FOOTBALL",
+      "names": {
+        "display": "Adrian Martinez",
+        "firstName": "Adrian",
+        "lastName": "Martinez"
+      },
+      "jerseyNumber": "15",
+      "position": "QB",
+      "age": 25,
+      "height": "6' 2\"",
+      "weight": "220 lbs",
+      "school": "Kansas State",
+      "yearsInLeague": 1,
+      "teamGroup": "Offense",
+      "playerID": "ADRIAN_MARTINEZ_1_NFL",
+      "birthday": "2000-01-07",
+      "teamID": "NEW_YORK_JETS_NFL"
+    },
+    {
+      "yearsInLeague": 9,
+      "sportID": "FOOTBALL",
+      "school": "Texas",
+      "leagueID": "NFL",
+      "age": 31,
+      "playerID": "ADRIAN_PHILLIPS_1_NFL",
+      "teamGroup": "Defense",
+      "jerseyNumber": 21,
+      "position": "S",
+      "names": {
+        "display": "Adrian Phillips",
+        "firstName": "Adrian",
+        "lastName": "Phillips"
+      },
+      "salary": "$1,187,500",
+      "height": "5' 11\"",
+      "weight": "208 lbs",
+      "aliases": [
+        "ADRIAN_PHILLIPS_NEW_ENGLAND_PATRIOTS_NFL"
+      ],
+      "teamID": ""
+    },
+    {
+      "sportID": "FOOTBALL",
+      "leagueID": "NFL",
+      "playerID": "AENEAS_DENNIS_1_NFL",
+      "names": {
+        "display": "Aeneas Dennis",
+        "firstName": "Aeneas",
+        "lastName": "Dennis"
+      },
+      "aliases": [
+        "AENEAS_DENNIS_PITTSBURGH_STEELERS_NFL"
+      ],
+      "teamID": ""
+    },
+    {
+      "sportID": "FOOTBALL",
+      "school": "Colorado",
+      "leagueID": "NFL",
+      "position": "CB",
+      "playerID": "AHKELLO_WITHERSPOON_1_NFL",
+      "jerseyNumber": "23",
+      "yearsInLeague": 8,
+      "age": 29,
+      "teamGroup": "Defense",
+      "names": {
+        "display": "Ahkello Witherspoon",
+        "firstName": "Ahkello",
+        "lastName": "Witherspoon"
+      },
+      "height": "6' 2\"",
+      "weight": "195 lbs",
+      "aliases": [
+        "AHKELLO_WITHERSPOON_LOS_ANGELES_RAMS_NFL"
+      ],
+      "birthday": "1995-03-21",
+      "teamID": "LOS_ANGELES_RAMS_NFL"
+    },
+    {
+      "sportID": "FOOTBALL",
+      "leagueID": "NFL",
+      "position": "WR",
+      "playerID": "AHMAREAN_BROWN_1_NFL",
+      "school": "South Carolina",
+      "jerseyNumber": 87,
+      "teamGroup": "Practice Squad",
+      "age": 23,
+      "names": {
+        "display": "Ahmarean Brown",
+        "firstName": "Ahmarean",
+        "lastName": "Brown"
+      },
+      "height": "5' 8\"",
+      "weight": "170 lbs",
+      "aliases": [
+        "AHMAREAN_BROWN_CLEVELAND_BROWNS_NFL"
+      ],
+      "teamID": "CLEVELAND_BROWNS_NFL"
+    },
+    {
+      "sportID": "FOOTBALL",
+      "school": "Michigan",
+      "leagueID": "NFL",
+      "position": "DE",
+      "playerID": "AIDAN_HUTCHINSON_1_NFL",
+      "jerseyNumber": "97",
+      "yearsInLeague": 3,
+      "age": 24,
+      "teamGroup": "Injured Reserve Or O",
+      "names": {
+        "display": "Aidan Hutchinson",
+        "firstName": "Aidan",
+        "lastName": "Hutchinson"
+      },
+      "salary": "$21,103,364",
+      "height": "6' 7\"",
+      "weight": "268 lbs",
+      "aliases": [
+        "AIDAN_HUTCHINSON_DETROIT_LIONS_NFL"
+      ],
+      "birthday": "2000-08-09",
+      "teamID": "DETROIT_LIONS_NFL"
+    },
+    {
+      "sportID": "FOOTBALL",
+      "school": "Purdue",
+      "leagueID": "NFL",
+      "position": "QB",
+      "age": 24,
+      "playerID": "AIDAN_OCONNELL_1_NFL",
+      "teamGroup": "Offense",
+      "jerseyNumber": "12",
+      "names": {
+        "display": "Aidan O'Connell",
+        "firstName": "Aidan",
+        "lastName": "O'Connell"
+      },
+      "salary": "$509,380",
+      "height": "6' 3\"",
+      "weight": "210 lbs",
+      "aliases": [
+        "AIDAN_OCONNELL_LAS_VEGAS_RAIDERS_NFL"
+      ],
+      "birthday": "1998-09-01",
+      "teamID": "LAS_VEGAS_RAIDERS_NFL"
+    },
+    {
+      "leagueID": "NFL",
+      "sportID": "FOOTBALL",
+      "names": {
+        "display": "Aidan Robbins",
+        "firstName": "Aidan",
+        "lastName": "Robbins"
+      },
+      "jerseyNumber": 49,
+      "position": "RB",
+      "age": 24,
+      "height": "6' 2\"",
+      "weight": "237 lbs",
+      "school": "BYU",
+      "teamGroup": "Practice Squad",
+      "playerID": "AIDAN_ROBBINS_1_NFL",
+      "teamID": "CLEVELAND_BROWNS_NFL"
+    },
+    {
+      "leagueID": "NFL",
+      "sportID": "FOOTBALL",
+      "names": {
+        "display": "Ainias Smith",
+        "firstName": "Ainias",
+        "lastName": "Smith"
+      },
+      "jerseyNumber": "82",
+      "position": "WR",
+      "age": 23,
+      "height": "5' 9\"",
+      "weight": "176 lbs",
+      "school": "Texas A&M",
+      "teamGroup": "Offense",
+      "playerID": "AINIAS_SMITH_1_NFL",
+      "birthday": "2001-05-31",
+      "teamID": "PHILADELPHIA_EAGLES_NFL"
+    },
+    {
+      "leagueID": "NFL",
+      "sportID": "FOOTBALL",
+      "names": {
+        "display": "A.J. Arcuri",
+        "firstName": "AJ",
+        "lastName": "Arcuri"
+      },
+      "jerseyNumber": "61",
+      "position": "OT",
+      "age": 27,
+      "height": "6' 7\"",
+      "weight": "308 lbs",
+      "school": "Michigan State",
+      "yearsInLeague": 2,
+      "teamGroup": "Offense",
+      "playerID": "AJ_ARCURI_1_NFL",
+      "birthday": "1997-08-13",
+      "teamID": "LOS_ANGELES_RAMS_NFL"
+    },
+    {
+      "teamGroup": "Offense",
+      "school": "Michigan",
+      "position": "TE",
+      "age": 22,
+      "playerID": "AJ_BARNER_1_NFL",
+      "sportID": "FOOTBALL",
+      "leagueID": "NFL",
+      "jerseyNumber": "88",
+      "names": {
+        "display": "AJ Barner",
+        "firstName": "AJ",
+        "lastName": "Barner"
+      },
+      "height": "6' 6\"",
+      "weight": "251 lbs",
+      "aliases": [
+        "AJ_BARNER_SEATTLE_SEAHAWKS_NFL"
+      ],
+      "birthday": "2002-05-03",
+      "teamID": "SEATTLE_SEAHAWKS_NFL"
+    },
+    {
+      "sportID": "FOOTBALL",
+      "school": "Ole Miss",
+      "leagueID": "NFL",
+      "playerID": "AJ_BROWN_1_NFL",
+      "teamGroup": "Offense",
+      "yearsInLeague": 6,
+      "age": 27,
+      "jerseyNumber": "11",
+      "position": "WR",
+      "names": {
+        "display": "A.J. Brown",
+        "firstName": "A.J.",
+        "lastName": "Brown"
+      },
+      "salary": "$42,518,400",
+      "height": "6' 1\"",
+      "weight": "226 lbs",
+      "aliases": [
+        "AJ_BROWN_PHILADELPHIA_EAGLES_NFL"
+      ],
+      "birthday": "1997-06-30",
+      "teamID": "PHILADELPHIA_EAGLES_NFL"
+    },
+    {
+      "sportID": "FOOTBALL",
+      "leagueID": "NFL",
+      "position": "P",
+      "playerID": "AJ_COLE_1_NFL",
+      "yearsInLeague": 5,
+      "school": "NC State",
+      "age": 27,
+      "teamGroup": "Special Teams",
+      "jerseyNumber": "6",
+      "names": {
+        "display": "A.J. Cole",
+        "firstName": "AJ",
+        "lastName": "Cole"
+      },
+      "height": "6' 4\"",
+      "weight": "220 lbs",
+      "aliases": [
+        "AJ_COLE_LAS_VEGAS_RAIDERS_NFL"
+      ],
+      "birthday": "1995-11-27",
+      "teamID": "LAS_VEGAS_RAIDERS_NFL"
+    },
+    {
+      "sportID": "FOOTBALL",
+      "leagueID": "NFL",
+      "position": "RB",
+      "playerID": "AJ_DILLON_1_NFL",
+      "school": "Boston College",
+      "yearsInLeague": 5,
+      "age": 26,
+      "teamGroup": "Injured Reserve Or O",
+      "jerseyNumber": "28",
+      "names": {
+        "display": "A.J. Dillon",
+        "firstName": "AJ",
+        "lastName": "Dillon"
+      },
+      "height": "6' 0\"",
+      "weight": "247 lbs",
+      "aliases": [
+        "AJ_DILLON_GREEN_BAY_PACKERS_NFL"
+      ],
+      "birthday": "1998-05-02",
+      "teamID": "GREEN_BAY_PACKERS_NFL"
+    },
+    {
+      "sportID": "FOOTBALL",
+      "leagueID": "NFL",
+      "position": "DE",
+      "playerID": "AJ_EPENESA_1_NFL",
+      "school": "Iowa",
+      "teamGroup": "Defense",
+      "jerseyNumber": "57",
+      "yearsInLeague": 5,
+      "age": 26,
+      "names": {
+        "display": "A.J. Epenesa",
+        "firstName": "AJ",
+        "lastName": "Epenesa"
+      },
+      "height": "6' 6\"",
+      "weight": "260 lbs",
+      "aliases": [
+        "AJ_EPENESA_BUFFALO_BILLS_NFL"
+      ],
+      "birthday": "1998-09-15",
+      "teamID": "BUFFALO_BILLS_NFL"
+    },
+    {
+      "sportID": "FOOTBALL",
+      "school": "Ole Miss",
+      "leagueID": "NFL",
+      "position": "SAF",
+      "playerID": "AJ_FINLEY_1_NFL",
+      "teamGroup": "Defense",
+      "jerseyNumber": "24",
+      "age": 23,
+      "yearsInLeague": 2,
+      "names": {
+        "display": "A.J. Finley",
+        "firstName": "AJ",
+        "lastName": "Finley"
+      },
+      "height": "6' 0\"",
+      "weight": "188 lbs",
+      "aliases": [
+        "AJ_FINLEY_LOS_ANGELES_CHARGERS_NFL"
+      ],
+      "birthday": "2001-09-14",
+      "teamID": "LOS_ANGELES_CHARGERS_NFL"
+    },
+    {
+      "sportID": "FOOTBALL",
+      "leagueID": "NFL",
+      "position": "OL",
+      "playerID": "AJ_FORBES_1_NFL",
+      "names": {
+        "display": "AJ Forbes",
+        "firstName": "AJ",
+        "lastName": "Forbes"
+      },
+      "aliases": [
+        "AJ_FORBES_SEATTLE_SEAHAWKS_NFL"
+      ],
+      "teamID": ""
+    },
+    {
+      "leagueID": "NFL",
+      "sportID": "FOOTBALL",
+      "names": {
+        "display": "A.J. Green",
+        "firstName": "A.J.",
+        "lastName": "Green"
+      },
+      "jerseyNumber": 27,
+      "position": "CB",
+      "age": 26,
+      "height": "6' 2\"",
+      "weight": "198 lbs",
+      "school": "Oklahoma State",
+      "yearsInLeague": 3,
+      "teamGroup": "Defense",
+      "playerID": "AJ_GREEN_1_NFL",
+      "teamID": "MINNESOTA_VIKINGS_NFL"
+    },
+    {
+      "yearsInLeague": 11,
+      "sportID": "FOOTBALL",
+      "school": "Iowa State",
+      "leagueID": "NFL",
+      "jerseyNumber": 52,
+      "position": "LB",
+      "age": 32,
+      "playerID": "AJ_KLEIN_1_NFL",
+      "teamGroup": "Defense",
+      "names": {
+        "display": "A.J. Klein",
+        "firstName": "A.J.",
+        "lastName": "Klein"
+      },
+      "height": "6' 1\"",
+      "weight": "240 lbs",
+      "aliases": [
+        "AJ_KLEIN_BUFFALO_BILLS_NFL"
+      ],
+      "teamID": ""
+    },
+    {
+      "yearsInLeague": 8,
+      "sportID": "FOOTBALL",
+      "school": "Alabama",
+      "leagueID": "NFL",
+      "position": "QB",
+      "age": 33,
+      "playerID": "AJ_MCCARRON_1_NFL",
+      "teamGroup": "Offense",
+      "jerseyNumber": 4,
+      "names": {
+        "display": "AJ McCarron",
+        "firstName": "AJ",
+        "lastName": "McCarron"
+      },
+      "height": "6' 3\"",
+      "weight": "220 lbs",
+      "aliases": [
+        "AJ_MCCARRON_CINCINNATI_BENGALS_NFL"
+      ],
+      "teamID": ""
+    },
+    {
+      "sportID": "FOOTBALL",
+      "school": "Clemson",
+      "leagueID": "NFL",
+      "position": "CB",
+      "playerID": "AJ_TERRELL_1_NFL",
+      "teamGroup": "Defense",
+      "jerseyNumber": "24",
+      "yearsInLeague": 5,
+      "age": 26,
+      "names": {
+        "display": "A.J. Terrell",
+        "firstName": "A.J.",
+        "lastName": "Terrell"
+      },
+      "salary": "$12,344,000",
+      "height": "6' 1\"",
+      "weight": "194 lbs",
+      "aliases": [
+        "AJ_TERRELL_ATLANTA_FALCONS_NFL"
+      ],
+      "birthday": "1998-09-23",
+      "teamID": "ATLANTA_FALCONS_NFL"
+    }
+  ],
+  "nba": {
+    "nextCursor": "n.A_REESE_1_NBA",
+    "success": true,
+    "data": [
+      {
+        "sportID": "BASKETBALL",
+        "school": "Arizona",
+        "leagueID": "NBA",
+        "position": "F",
+        "playerID": "AARON_GORDON_1_NBA",
+        "jerseyNumber": "32",
+        "names": {
+          "display": "Aaron Gordon",
+          "firstName": "Aaron",
+          "lastName": "Gordon"
+        },
+        "height": "6' 8\"",
+        "weight": "235 lbs",
+        "aliases": [
+          "AARON_GORDON_DENVER_NUGGETS_NBA"
+        ],
+        "birthday": "1995-09-16",
+        "nationality": "USA",
+        "teamID": "DENVER_NUGGETS_NBA"
+      },
+      {
+        "sportID": "BASKETBALL",
+        "school": "UCLA",
+        "leagueID": "NBA",
+        "position": "G",
+        "playerID": "AARON_HOLIDAY_1_NBA",
+        "jerseyNumber": "0",
+        "names": {
+          "display": "Aaron Holiday",
+          "firstName": "Aaron",
+          "lastName": "Holiday"
+        },
+        "height": "6' 0\"",
+        "weight": "185 lbs",
+        "aliases": [
+          "AARON_HOLIDAY_HOUSTON_ROCKETS_NBA"
+        ],
+        "birthday": "1996-09-30",
+        "nationality": "USA",
+        "teamID": "HOUSTON_ROCKETS_NBA"
+      },
+      {
+        "sportID": "BASKETBALL",
+        "school": "Vanderbilt",
+        "leagueID": "NBA",
+        "position": "GF",
+        "playerID": "AARON_NESMITH_1_NBA",
+        "jerseyNumber": "23",
+        "names": {
+          "display": "Aaron Nesmith",
+          "firstName": "Aaron",
+          "lastName": "Nesmith"
+        },
+        "height": "6' 5\"",
+        "weight": "215 lbs",
+        "aliases": [
+          "AARON_NESMITH_INDIANA_PACERS_NBA"
+        ],
+        "birthday": "1999-10-16",
+        "nationality": "USA",
+        "teamID": "INDIANA_PACERS_NBA"
+      },
+      {
+        "sportID": "BASKETBALL",
+        "school": "Maryland",
+        "leagueID": "NBA",
+        "position": "G",
+        "playerID": "AARON_WIGGINS_1_NBA",
+        "jerseyNumber": "21",
+        "names": {
+          "display": "Aaron Wiggins",
+          "firstName": "Aaron",
+          "lastName": "Wiggins"
+        },
+        "height": "6' 4\"",
+        "weight": "190 lbs",
+        "aliases": [
+          "AARON_WIGGINS_OKLAHOMA_CITY_THUNDER_NBA"
+        ],
+        "birthday": "1999-01-02",
+        "nationality": "USA",
+        "teamID": "OKLAHOMA_CITY_THUNDER_NBA"
+      },
+      {
+        "leagueID": "NBA",
+        "sportID": "BASKETBALL",
+        "names": {
+          "firstName": "Adama",
+          "lastName": "Sanogo",
+          "display": "Adama Sanogo"
+        },
+        "weight": "258 lbs",
+        "school": "UConn",
+        "playerID": "ADAMA_SANOGO_1_NBA",
+        "jerseyNumber": "21",
+        "position": "C",
+        "birthday": "2002-02-12",
+        "teamID": "CHICAGO_BULLS_NBA"
+      },
+      {
+        "sportID": "BASKETBALL",
+        "leagueID": "NBA",
+        "position": "G",
+        "playerID": "ADAM_FLAGLER_1_NBA",
+        "jerseyNumber": "14",
+        "names": {
+          "display": "Adam Flagler",
+          "firstName": "Adam",
+          "lastName": "Flagler"
+        },
+        "aliases": [
+          "ADAM_FLAGLER_OKLAHOMA_CITY_THUNDER_NBA"
+        ],
+        "birthday": "1999-12-01",
+        "teamID": "OKLAHOMA_CITY_THUNDER_NBA"
+      },
+      {
+        "sportID": "BASKETBALL",
+        "leagueID": "NBA",
+        "playerID": "ADEM_BONA_1_NBA",
+        "jerseyNumber": "30",
+        "school": "UCLA",
+        "position": "C",
+        "names": {
+          "display": "Adem Bona",
+          "firstName": "Adem",
+          "lastName": "Bona"
+        },
+        "weight": "235 lbs",
+        "aliases": [
+          "ADEM_BONA_PHILADELPHIA_76ERS_NBA"
+        ],
+        "birthday": "2003-03-28",
+        "teamID": "PHILADELPHIA_76ERS_NBA"
+      },
+      {
+        "sportID": "BASKETBALL",
+        "school": "Tennessee",
+        "leagueID": "NBA",
+        "jerseyNumber": "25",
+        "position": "F",
+        "playerID": "ADMIRAL_SCHOFIELD_1_NBA",
+        "names": {
+          "display": "Admiral Schofield",
+          "firstName": "Admiral",
+          "lastName": "Schofield"
+        },
+        "height": "6' 5\"",
+        "weight": "241 lbs",
+        "aliases": [
+          "ADMIRAL_SCHOFIELD_ORLANDO_MAGIC_NBA"
+        ],
+        "teamID": ""
+      },
+      {
+        "leagueID": "NBA",
+        "sportID": "BASKETBALL",
+        "names": {
+          "firstName": "Ajay",
+          "lastName": "Mitchell",
+          "display": "Ajay Mitchell"
+        },
+        "weight": "190 lbs",
+        "school": "UC Santa Barbara",
+        "playerID": "AJAY_MITCHELL_1_NBA",
+        "jerseyNumber": "25",
+        "position": "G",
+        "birthday": "2002-06-25",
+        "teamID": "OKLAHOMA_CITY_THUNDER_NBA"
+      },
+      {
+        "sportID": "BASKETBALL",
+        "leagueID": "NBA",
+        "position": "G",
+        "playerID": "AJ_GREEN_1_NBA",
+        "jerseyNumber": "20",
+        "names": {
+          "display": "AJ Green",
+          "firstName": "A.J.",
+          "lastName": "Green"
+        },
+        "aliases": [
+          "AJ_GREEN_MILWAUKEE_BUCKS_NBA"
+        ],
+        "birthday": "1999-09-27",
+        "teamID": "MILWAUKEE_BUCKS_NBA"
+      },
+      {
+        "sportID": "BASKETBALL",
+        "leagueID": "NBA",
+        "jerseyNumber": "14",
+        "position": "G",
+        "playerID": "AJ_GRIFFIN_1_NBA",
+        "names": {
+          "display": "AJ Griffin",
+          "firstName": "AJ",
+          "lastName": "Griffin"
+        },
+        "aliases": [
+          "AJ_GRIFFIN_ATLANTA_HAWKS_NBA",
+          "AJ_GRIFFIN_HOUSTON_ROCKETS_NBA"
+        ],
+        "teamID": ""
+      },
+      {
+        "sportID": "BASKETBALL",
+        "leagueID": "NBA",
+        "position": "G",
+        "playerID": "AJ_JOHNSON_1_NBA",
+        "jerseyNumber": "77",
+        "names": {
+          "display": "AJ Johnson",
+          "firstName": "AJ",
+          "lastName": "Johnson"
+        },
+        "weight": "167 lbs",
+        "aliases": [
+          "AJ_JOHNSON_MILWAUKEE_BUCKS_NBA"
+        ],
+        "birthday": "2004-12-01",
+        "teamID": "WASHINGTON_WIZARDS_NBA"
+      },
+      {
+        "sportID": "BASKETBALL",
+        "school": "South Carolina",
+        "leagueID": "NBA",
+        "position": "G",
+        "playerID": "AJ_LAWSON_1_NBA",
+        "jerseyNumber": "0",
+        "names": {
+          "display": "A.J. Lawson",
+          "firstName": "A.J.",
+          "lastName": "Lawson"
+        },
+        "height": "6' 6\"",
+        "weight": "180 lbs",
+        "aliases": [
+          "AJ_LAWSON_DALLAS_MAVERICKS_NBA"
+        ],
+        "birthday": "2000-07-15",
+        "nationality": "Canada",
+        "teamID": "TORONTO_RAPTORS_NBA"
+      },
+      {
+        "sportID": "BASKETBALL",
+        "school": "Colorado",
+        "leagueID": "NBA",
+        "jerseyNumber": "18",
+        "position": "G",
+        "playerID": "ALEC_BURKS_1_NBA",
+        "names": {
+          "display": "Alec Burks",
+          "firstName": "Alec",
+          "lastName": "Burks"
+        },
+        "height": "6' 6\"",
+        "weight": "214 lbs",
+        "aliases": [
+          "ALEC_BURKS_DETROIT_PISTONS_NBA",
+          "ALEC_BURKS_NEW_YORK_KNICKS_NBA"
+        ],
+        "birthday": "1991-07-20",
+        "nationality": "USA",
+        "teamID": "MIAMI_HEAT_NBA"
+      },
+      {
+        "sportID": "BASKETBALL",
+        "school": "Olympiacos",
+        "leagueID": "NBA",
+        "jerseyNumber": 17,
+        "position": "C",
+        "playerID": "ALEKSEJ_POKUSEVSKI_1_NBA",
+        "names": {
+          "display": "Aleksej Pokusevski",
+          "firstName": "Aleksej",
+          "lastName": "Pokusevski"
+        },
+        "height": "6' 12\"",
+        "weight": "190 lbs",
+        "aliases": [
+          "ALEKSEJ_POKUSEVSKI_CHARLOTTE_HORNETS_NBA",
+          "ALEKSEJ_POKUSEVSKI_OKLAHOMA_CITY_THUNDER_NBA"
+        ],
+        "teamID": ""
+      },
+      {
+        "sportID": "BASKETBALL",
+        "leagueID": "NBA",
+        "playerID": "ALEXANDRE_SARR_1_NBA",
+        "jerseyNumber": "20",
+        "position": "F",
+        "names": {
+          "display": "Alexandre Sarr",
+          "firstName": "Alexandre",
+          "lastName": "Sarr"
+        },
+        "aliases": [
+          "ALEXANDRE_SARR_WASHINGTON_WIZARDS_NBA"
+        ],
+        "birthday": "2005-04-26",
+        "teamID": ""
+      },
+      {
+        "sportID": "BASKETBALL",
+        "school": "Texas A&M",
+        "leagueID": "NBA",
+        "position": "G",
+        "playerID": "ALEX_CARUSO_1_NBA",
+        "jerseyNumber": "9",
+        "names": {
+          "display": "Alex Caruso",
+          "firstName": "Alex",
+          "lastName": "Caruso"
+        },
+        "height": "6' 5\"",
+        "weight": "186 lbs",
+        "aliases": [
+          "ALEX_CARUSO_CHICAGO_BULLS_NBA",
+          "ALEX_CARUSO_OKLAHOMA_CITY_THUNDER_NBA"
+        ],
+        "birthday": "1994-02-28",
+        "nationality": "USA",
+        "teamID": "OKLAHOMA_CITY_THUNDER_NBA"
+      },
+      {
+        "leagueID": "NBA",
+        "sportID": "BASKETBALL",
+        "names": {
+          "firstName": "Alex",
+          "lastName": "Ducas",
+          "display": "Alex Ducas"
+        },
+        "weight": "220 lbs",
+        "school": "Saint Mary&#x27;s",
+        "playerID": "ALEX_DUCAS_1_NBA",
+        "jerseyNumber": "88",
+        "position": "GF",
+        "birthday": "2000-12-11",
+        "teamID": "OKLAHOMA_CITY_THUNDER_NBA"
+      },
+      {
+        "leagueID": "NBA",
+        "sportID": "BASKETBALL",
+        "names": {
+          "firstName": "Alex",
+          "lastName": "Fudge",
+          "display": "Alex Fudge"
+        },
+        "weight": "189 lbs",
+        "school": "Florida",
+        "playerID": "ALEX_FUDGE_1_NBA",
+        "teamID": ""
+      },
+      {
+        "sportID": "BASKETBALL",
+        "school": "Maryland",
+        "leagueID": "NBA",
+        "position": "C",
+        "playerID": "ALEX_LEN_1_NBA",
+        "jerseyNumber": "27",
+        "names": {
+          "display": "Alex Len",
+          "firstName": "Alex",
+          "lastName": "Len"
+        },
+        "height": "7' 0\"",
+        "weight": "250 lbs",
+        "aliases": [
+          "ALEX_LEN_SACRAMENTO_KINGS_NBA"
+        ],
+        "birthday": "1993-06-16",
+        "nationality": "Ukraine",
+        "teamID": "LOS_ANGELES_LAKERS_NBA"
+      },
+      {
+        "sportID": "BASKETBALL",
+        "leagueID": "NBA",
+        "position": "G",
+        "playerID": "ALONDES_WILLIAMS_1_NBA",
+        "jerseyNumber": "15",
+        "names": {
+          "display": "Alondes Williams",
+          "firstName": "Alondes",
+          "lastName": "Williams"
+        },
+        "aliases": [
+          "ALONDES_WILLIAMS_MIAMI_HEAT_NBA"
+        ],
+        "teamID": "LA_CLIPPERS_NBA"
+      },
+      {
+        "sportID": "FOOTBALL",
+        "leagueID": "NFL",
+        "playerID": "AARON_BANKS_1_NFL",
+        "jerseyNumber": "65",
+        "yearsInLeague": 4,
+        "school": "Notre Dame",
+        "position": "G",
+        "age": 27,
+        "teamGroup": "Injured Reserve Or O",
+        "names": {
+          "display": "Aaron Banks",
+          "firstName": "Aaron",
+          "lastName": "Banks"
+        },
+        "height": "6' 5\"",
+        "weight": "325 lbs",
+        "aliases": [
+          "AARON_BANKS_SAN_FRANCISCO_49ERS_NFL"
+        ],
+        "birthday": "1997-09-03",
+        "teamID": "SAN_FRANCISCO_49ERS_NFL"
+      },
+      {
+        "sportID": "BASKETBALL",
+        "school": "Besiktas",
+        "leagueID": "NBA",
+        "position": "C",
+        "playerID": "ALPEREN_SENGUN_1_NBA",
+        "jerseyNumber": "28",
+        "names": {
+          "display": "Alperen Sengun",
+          "firstName": "Alperen",
+          "lastName": "Sengun"
+        },
+        "height": "6' 10\"",
+        "weight": "243 lbs",
+        "aliases": [
+          "ALPEREN_SENGUN_HOUSTON_ROCKETS_NBA"
+        ],
+        "birthday": "2002-07-25",
+        "nationality": "Turkey",
+        "teamID": "HOUSTON_ROCKETS_NBA"
+      },
+      {
+        "sportID": "BASKETBALL",
+        "school": "Florida",
+        "leagueID": "NBA",
+        "position": "CF",
+        "playerID": "AL_HORFORD_1_NBA",
+        "jerseyNumber": "42",
+        "names": {
+          "display": "Al Horford",
+          "firstName": "Al",
+          "lastName": "Horford"
+        },
+        "height": "6' 9\"",
+        "weight": "240 lbs",
+        "aliases": [
+          "AL_HORFORD_BOSTON_CELTICS_NBA"
+        ],
+        "birthday": "1986-06-03",
+        "nationality": "Dominican Republic",
+        "teamID": "BOSTON_CELTICS_NBA"
+      },
+      {
+        "leagueID": "NBA",
+        "sportID": "BASKETBALL",
+        "names": {
+          "firstName": "Amari",
+          "lastName": "Bailey",
+          "display": "Amari Bailey"
+        },
+        "weight": "185 lbs",
+        "school": "UCLA",
+        "playerID": "AMARI_BAILEY_1_NBA",
+        "teamID": "BROOKLYN_NETS_NBA"
+      },
+      {
+        "sportID": "BASKETBALL",
+        "leagueID": "NBA",
+        "position": "G",
+        "playerID": "AMEN_THOMPSON_1_NBA",
+        "jerseyNumber": "1",
+        "names": {
+          "display": "Amen Thompson",
+          "firstName": "Amen",
+          "lastName": "Thompson"
+        },
+        "weight": "214 lbs",
+        "aliases": [
+          "AMEN_THOMPSON_HOUSTON_ROCKETS_NBA"
+        ],
+        "birthday": "2003-01-30",
+        "teamID": "HOUSTON_ROCKETS_NBA"
+      },
+      {
+        "leagueID": "NBA",
+        "sportID": "BASKETBALL",
+        "names": {
+          "firstName": "Amida",
+          "lastName": "Brimah",
+          "display": "Amida Brimah"
+        },
+        "birthday": "1994-02-11",
+        "height": "6' 10\"",
+        "weight": "230 lbs",
+        "school": "Connecticut",
+        "nationality": "USA",
+        "playerID": "AMIDA_BRIMAH_1_NBA",
+        "teamID": ""
+      },
+      {
+        "sportID": "BASKETBALL",
+        "school": "Minnesota",
+        "leagueID": "NBA",
+        "position": "GF",
+        "playerID": "AMIR_COFFEY_1_NBA",
+        "jerseyNumber": "7",
+        "names": {
+          "display": "Amir Coffey",
+          "firstName": "Amir",
+          "lastName": "Coffey"
+        },
+        "height": "6' 7\"",
+        "weight": "210 lbs",
+        "aliases": [
+          "AMIR_COFFEY_LA_CLIPPERS_NBA"
+        ],
+        "birthday": "1997-06-17",
+        "nationality": "USA",
+        "teamID": "LA_CLIPPERS_NBA"
+      },
+      {
+        "sportID": "BASKETBALL",
+        "leagueID": "NBA",
+        "position": "G",
+        "playerID": "ANDREW_FUNK_1_NBA",
+        "school": "Penn State",
+        "jerseyNumber": "30",
+        "names": {
+          "display": "Andrew Funk",
+          "firstName": "Andrew",
+          "lastName": "Funk"
+        },
+        "weight": "188 lbs",
+        "aliases": [
+          "ANDREW_FUNK_CHICAGO_BULLS_NBA"
+        ],
+        "teamID": ""
+      },
+      {
+        "sportID": "BASKETBALL",
+        "leagueID": "NBA",
+        "playerID": "ANDREW_NEMBHARD_1_NBA",
+        "jerseyNumber": "2",
+        "position": "G",
+        "names": {
+          "display": "Andrew Nembhard",
+          "firstName": "Andrew",
+          "lastName": "Nembhard"
+        },
+        "aliases": [
+          "ANDREW_NEMBHARD_INDIANA_PACERS_NBA"
+        ],
+        "birthday": "2000-01-16",
+        "teamID": "INDIANA_PACERS_NBA"
+      },
+      {
+        "sportID": "BASKETBALL",
+        "school": "Kansas",
+        "leagueID": "NBA",
+        "position": "F",
+        "playerID": "ANDREW_WIGGINS_1_NBA",
+        "jerseyNumber": "22",
+        "names": {
+          "display": "Andrew Wiggins",
+          "firstName": "Andrew",
+          "lastName": "Wiggins"
+        },
+        "height": "6' 7\"",
+        "weight": "197 lbs",
+        "aliases": [
+          "ANDREW_WIGGINS_GOLDEN_STATE_WARRIORS_NBA"
+        ],
+        "birthday": "1995-02-23",
+        "nationality": "Canada",
+        "teamID": "MIAMI_HEAT_NBA"
+      },
+      {
+        "sportID": "BASKETBALL",
+        "school": "Connecticut",
+        "leagueID": "NBA",
+        "position": "C",
+        "playerID": "ANDRE_DRUMMOND_1_NBA",
+        "jerseyNumber": "5",
+        "names": {
+          "display": "Andre Drummond",
+          "firstName": "Andre",
+          "lastName": "Drummond"
+        },
+        "height": "6' 10\"",
+        "weight": "279 lbs",
+        "aliases": [
+          "ANDRE_DRUMMOND_CHICAGO_BULLS_NBA"
+        ],
+        "birthday": "1993-08-10",
+        "nationality": "USA",
+        "teamID": "PHILADELPHIA_76ERS_NBA"
+      },
+      {
+        "sportID": "BASKETBALL",
+        "school": "UConn",
+        "leagueID": "NBA",
+        "playerID": "ANDRE_JACKSON_JR_1_NBA",
+        "jerseyNumber": "44",
+        "position": "GF",
+        "names": {
+          "display": "Andre Jackson Jr",
+          "firstName": "Andre",
+          "lastName": "Jackson",
+          "suffix": "Jr"
+        },
+        "weight": "200 lbs",
+        "aliases": [
+          "ANDRE_JACKSON_MILWAUKEE_BUCKS_NBA"
+        ],
+        "birthday": "2001-11-13",
+        "teamID": "MILWAUKEE_BUCKS_NBA"
+      },
+      {
+        "sportID": "BASKETBALL",
+        "school": "Edgewater HS (FL)",
+        "leagueID": "NBA",
+        "position": "G",
+        "playerID": "ANFERNEE_SIMONS_1_NBA",
+        "jerseyNumber": "1",
+        "names": {
+          "display": "Anfernee Simons",
+          "firstName": "Anfernee",
+          "lastName": "Simons"
+        },
+        "height": "6' 3\"",
+        "weight": "181 lbs",
+        "aliases": [
+          "ANFERNEE_SIMONS_PORTLAND_TRAIL_BLAZERS_NBA"
+        ],
+        "birthday": "1999-06-08",
+        "nationality": "USA",
+        "teamID": "PORTLAND_TRAIL_BLAZERS_NBA"
+      },
+      {
+        "sportID": "BASKETBALL",
+        "school": "Arkansas",
+        "leagueID": "NBA",
+        "jerseyNumber": "0",
+        "position": "G",
+        "playerID": "ANTHONY_BLACK_1_NBA",
+        "names": {
+          "display": "Anthony Black",
+          "firstName": "Anthony",
+          "lastName": "Black"
+        },
+        "weight": "200 lbs",
+        "aliases": [
+          "ANTHONY_BLACK_ORLANDO_MAGIC_NBA"
+        ],
+        "birthday": "2004-01-20",
+        "teamID": "ORLANDO_MAGIC_NBA"
+      },
+      {
+        "sportID": "BASKETBALL",
+        "school": "Kentucky",
+        "leagueID": "NBA",
+        "jerseyNumber": "3",
+        "position": "FC",
+        "playerID": "ANTHONY_DAVIS_1_NBA",
+        "names": {
+          "display": "Anthony Davis",
+          "firstName": "Anthony",
+          "lastName": "Davis"
+        },
+        "height": "6' 10\"",
+        "weight": "253 lbs",
+        "aliases": [
+          "ANTHONY_DAVIS_LOS_ANGELES_LAKERS_NBA"
+        ],
+        "birthday": "1993-03-11",
+        "nationality": "USA",
+        "teamID": "DALLAS_MAVERICKS_NBA"
+      },
+      {
+        "leagueID": "NBA",
+        "sportID": "BASKETBALL",
+        "names": {
+          "firstName": "Anthony",
+          "lastName": "Edwards",
+          "display": "Anthony Edwards"
+        },
+        "birthday": "2001-08-05",
+        "height": "6' 4\"",
+        "weight": "225 lbs",
+        "school": "Georgia",
+        "nationality": "USA",
+        "playerID": "ANTHONY_EDWARDS_1_NBA",
+        "teamID": "MINNESOTA_TIMBERWOLVES_NBA"
+      },
+      {
+        "sportID": "BASKETBALL",
+        "school": "Virginia",
+        "leagueID": "NBA",
+        "position": "F",
+        "playerID": "ANTHONY_GILL_1_NBA",
+        "jerseyNumber": "16",
+        "names": {
+          "display": "Anthony Gill",
+          "firstName": "Anthony",
+          "lastName": "Gill"
+        },
+        "height": "6' 7\"",
+        "weight": "230 lbs",
+        "aliases": [
+          "ANTHONY_GILL_WASHINGTON_WIZARDS_NBA"
+        ],
+        "birthday": "1992-10-17",
+        "nationality": "USA",
+        "teamID": "WASHINGTON_WIZARDS_NBA"
+      },
+      {
+        "leagueID": "NBA",
+        "sportID": "BASKETBALL",
+        "names": {
+          "firstName": "Antonio",
+          "lastName": "Reeves",
+          "display": "Antonio Reeves"
+        },
+        "weight": "187 lbs",
+        "school": "Kentucky",
+        "playerID": "ANTONIO_REEVES_1_NBA",
+        "teamID": "NEW_ORLEANS_PELICANS_NBA"
+      },
+      {
+        "leagueID": "NBA",
+        "sportID": "BASKETBALL",
+        "names": {
+          "firstName": "Anton",
+          "lastName": "Watson",
+          "display": "Anton Watson"
+        },
+        "weight": "230 lbs",
+        "school": "Gonzaga",
+        "playerID": "ANTON_WATSON_1_NBA",
+        "jerseyNumber": "28",
+        "position": "F",
+        "birthday": "2000-10-06",
+        "teamID": "BOSTON_CELTICS_NBA"
+      },
+      {
+        "leagueID": "NBA",
+        "sportID": "BASKETBALL",
+        "names": {
+          "firstName": "Anzejs",
+          "lastName": "Pasecniks",
+          "display": "Anzejs Pasecniks"
+        },
+        "birthday": "1995-12-20",
+        "height": "7' 1\"",
+        "weight": "229 lbs",
+        "school": "Gran Canaria",
+        "nationality": "Latvia",
+        "playerID": "ANZEJS_PASECNIKS_1_NBA",
+        "teamID": "MILWAUKEE_BUCKS_NBA"
+      },
+      {
+        "leagueID": "NBA",
+        "sportID": "BASKETBALL",
+        "names": {
+          "firstName": "Ariel",
+          "lastName": "Hukporti",
+          "display": "Ariel Hukporti"
+        },
+        "weight": "246 lbs",
+        "playerID": "ARIEL_HUKPORTI_1_NBA",
+        "jerseyNumber": "55",
+        "position": "C",
+        "birthday": "2002-04-12",
+        "teamID": "NEW_YORK_KNICKS_NBA"
+      },
+      {
+        "leagueID": "NBA",
+        "sportID": "BASKETBALL",
+        "names": {
+          "firstName": "Armaan",
+          "lastName": "Franklin",
+          "display": "Armaan Franklin"
+        },
+        "weight": "195 lbs",
+        "school": "Virginia",
+        "playerID": "ARMAAN_FRANKLIN_1_NBA",
+        "teamID": ""
+      },
+      {
+        "leagueID": "NBA",
+        "sportID": "BASKETBALL",
+        "names": {
+          "firstName": "Armando",
+          "lastName": "Bacot",
+          "display": "Armando Bacot"
+        },
+        "weight": "240 lbs",
+        "school": "North Carolina",
+        "playerID": "ARMANDO_BACOT_1_NBA",
+        "teamID": "MEMPHIS_GRIZZLIES_NBA"
+      },
+      {
+        "leagueID": "NBA",
+        "sportID": "BASKETBALL",
+        "names": {
+          "firstName": "Armel",
+          "lastName": "Traore",
+          "display": "Armel Traore"
+        },
+        "weight": "210 lbs",
+        "playerID": "ARMEL_TRAORE_1_NBA",
+        "teamID": "LOS_ANGELES_LAKERS_NBA"
+      },
+      {
+        "sportID": "BASKETBALL",
+        "leagueID": "NBA",
+        "jerseyNumber": "19",
+        "position": "GF",
+        "playerID": "ASHTON_HAGANS_1_NBA",
+        "names": {
+          "display": "Ashton Hagans",
+          "firstName": "Ashton",
+          "lastName": "Hagans"
+        },
+        "aliases": [
+          "ASHTON_HAGANS_PORTLAND_TRAIL_BLAZERS_NBA"
+        ],
+        "teamID": "RAANANA_MACCABI_RAANANA_NBA"
+      },
+      {
+        "sportID": "BASKETBALL",
+        "leagueID": "NBA",
+        "position": "GF",
+        "playerID": "AUSAR_THOMPSON_1_NBA",
+        "jerseyNumber": "9",
+        "names": {
+          "display": "Ausar Thompson",
+          "firstName": "Ausar",
+          "lastName": "Thompson"
+        },
+        "weight": "190 lbs",
+        "aliases": [
+          "AUSAR_THOMPSON_DETROIT_PISTONS_NBA"
+        ],
+        "birthday": "2003-01-30",
+        "teamID": "DETROIT_PISTONS_NBA"
+      },
+      {
+        "sportID": "BASKETBALL",
+        "school": "Oklahoma",
+        "leagueID": "NBA",
+        "jerseyNumber": "15",
+        "position": "G",
+        "playerID": "AUSTIN_REAVES_1_NBA",
+        "names": {
+          "display": "Austin Reaves",
+          "firstName": "Austin",
+          "lastName": "Reaves"
+        },
+        "height": "6' 5\"",
+        "weight": "197 lbs",
+        "aliases": [
+          "AUSTIN_REAVES_LOS_ANGELES_LAKERS_NBA"
+        ],
+        "birthday": "1998-05-29",
+        "nationality": "USA",
+        "teamID": "LOS_ANGELES_LAKERS_NBA"
+      },
+      {
+        "sportID": "BASKETBALL",
+        "school": "Illinois",
+        "leagueID": "NBA",
+        "position": "G",
+        "playerID": "AYO_DOSUNMU_1_NBA",
+        "jerseyNumber": "11",
+        "names": {
+          "display": "Ayo Dosunmu",
+          "firstName": "Ayo",
+          "lastName": "Dosunmu"
+        },
+        "height": "6' 4\"",
+        "weight": "200 lbs",
+        "aliases": [
+          "AYO_DOSUNMU_CHICAGO_BULLS_NBA"
+        ],
+        "birthday": "2000-01-17",
+        "nationality": "USA",
+        "teamID": "CHICAGO_BULLS_NBA"
+      },
+      {
+        "leagueID": "NBA",
+        "sportID": "BASKETBALL",
+        "names": {
+          "firstName": "A.",
+          "lastName": "Estrada",
+          "display": "A. Estrada"
+        },
+        "playerID": "A_ESTRADA_1_NBA",
+        "teamID": "DETROIT_PISTONS_NBA"
+      },
+      {
+        "leagueID": "NBA",
+        "sportID": "BASKETBALL",
+        "names": {
+          "firstName": "A.",
+          "lastName": "Reese",
+          "display": "A. Reese"
+        },
+        "playerID": "A_REESE_1_NBA",
+        "teamID": "OKLAHOMA_CITY_THUNDER_NBA"
+      }
+    ]
+  }
+}

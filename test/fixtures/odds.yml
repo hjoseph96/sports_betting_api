@@ -1,0 +1,65 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  event: one
+  odd_type: MyString
+  odd_id: MyString
+  opposing_odd_id: MyString
+  market_name: MyString
+  stat_id: MyString
+  period_id: MyString
+  bet_type_id: MyString
+  side_id: MyString
+  started: false
+  ended: false
+  cancelled: false
+  book_odds_available: false
+  fair_odds_available: false
+  fair_odds: 9.99
+  book_odds: 9.99
+  scoring_supported: false
+  by_bookmaker: 
+  fair_odds: 9.99
+  book_odds: 9.99
+  fair_over_under: 9.99
+  open_fair_odds: 9.99
+  open_book_odds: 9.99
+  open_fair_over_under: 9.99
+  open_book_over_under: 9.99
+  fair_spread: 9.99
+  book_spend: 9.99
+  open_fair_spread: 9.99
+  open_book_spread: 9.99
+  player: one
+
+two:
+  event: two
+  odd_type: MyString
+  odd_id: MyString
+  opposing_odd_id: MyString
+  market_name: MyString
+  stat_id: MyString
+  period_id: MyString
+  bet_type_id: MyString
+  side_id: MyString
+  started: false
+  ended: false
+  cancelled: false
+  book_odds_available: false
+  fair_odds_available: false
+  fair_odds: 9.99
+  book_odds: 9.99
+  scoring_supported: false
+  by_bookmaker: 
+  fair_odds: 9.99
+  book_odds: 9.99
+  fair_over_under: 9.99
+  open_fair_odds: 9.99
+  open_book_odds: 9.99
+  open_fair_over_under: 9.99
+  open_book_over_under: 9.99
+  fair_spread: 9.99
+  book_spend: 9.99
+  open_fair_spread: 9.99
+  open_book_spread: 9.99
+  player: two
