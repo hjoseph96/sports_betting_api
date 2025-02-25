@@ -33,25 +33,27 @@ class OddsSeeder
         fair_odds_available: o['fairOddsAvailable']
       }
 
-      if o['playerID'].present?
-        binding.pry if Player.find_by(player_id: o['playerID']).nil?
-        attrs.merge!({ player_id: Player.find_by(player_id:  o['playerID']).id })
-      end
-      attrs.merge!({ fair_odds: o['fairOdds'].to_f }) if attrs[:fair_odds_available]
-      attrs.merge!({ book_odds: o['bookOdds'].to_f }) if attrs[:book_odds_available]
+      attrs.merge!({ player_id: Player.find_by(player_id:  o['playerID']).id }) if o['playerID'].present?
+      attrs.merge!({ fair_odds: o['fairOdds'].to_f.round(10) }) if attrs[:fair_odds_available]
+      attrs.merge!({ book_odds: o['bookOdds'].to_f.round(10) }) if attrs[:book_odds_available]
 
-      attrs.merge!({ fair_over_under: o['fairOverUnder'] }) if o['fairOverUnder'].present?
-      attrs.merge!({ open_fair_odds: o['openFairOdds'] }) if o['openFairOdds'].present?
-      attrs.merge!({ open_book_over_under: o['openBookOverUnder'] }) if o['openBookOverUnder'].present?
-      attrs.merge!({ fair_spread: o['fairSpread'] }) if o['fairSpread'].present?
-      attrs.merge!({ book_spend: o['bookSpend'] }) if o['fairSpend'].present?
-      attrs.merge!({ open_fair_spread: o['openFairSpread'] }) if o['openFairSpread'].present?
-      attrs.merge!({ open_book_spread: o['openBookSpread'] }) if o['openBookSpread'].present?
+      attrs.merge!({ fair_over_under: o['fairOverUnder'].to_f.round(10) }) if o['fairOverUnder'].present?
+      attrs.merge!({ open_fair_odds: o['openFairOdds'].to_f.round(10) }) if o['openFairOdds'].present?
+      attrs.merge!({ open_book_over_under: o['openBookOverUnder'].to_f.round(10) }) if o['openBookOverUnder'].present?
+      attrs.merge!({ fair_spread: o['fairSpread'].to_f.round(10) }) if o['fairSpread'].present?
+      attrs.merge!({ book_spend: o['bookSpend'].to_f.round(10) }) if o['fairSpend'].present?
+      attrs.merge!({ open_fair_spread: o['openFairSpread'].to_f.round(10) }) if o['openFairSpread'].present?
+      attrs.merge!({ open_book_spread: o['openBookSpread'].to_f.round(10) }) if o['openBookSpread'].present?
 
       odds = Odds.create(attrs)
 
       event.odds << odds
-      event.save!
+
+      begin
+        event.save!
+      rescue PG::NumericValueOutOfRange
+        binding.pry
+      end
 
       puts "CREATED ODDS(#{odds.odd_id}) FOR EVENT(#{event.event_id})"
     end

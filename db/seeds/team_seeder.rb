@@ -21,6 +21,11 @@ class TeamSeeder
     loop do
       response = @client.teams(league.short_name, next_cursor: next_cursor)
 
+      if response.try(:[], 'error') == 'Rate limit exceeded'
+        sleep 70
+        response = @client.teams(league.short_name, next_cursor: next_cursor)
+      end
+
       next_cursor = response['nextCursor']
 
       break if response['data'].nil?
@@ -39,7 +44,7 @@ class TeamSeeder
 
         team = Team.create(attrs)
 
-        team_name = team.names['long'] || team.names['short']
+        team_name = team.names['long'] || team.names['medium'] || team.names['short']
 
         puts "CREATED TEAM: #{team_name} for #{league.short_name}"
       end

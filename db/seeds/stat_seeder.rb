@@ -13,6 +13,13 @@ class StatSeeder
     @sports.each do |s|
       response = @client.stats(s.sport_id)
 
+      if response.try(:[], 'error') == 'Rate limit exceeded'
+        sleep 70
+        response = @client.stats(s.sport_id)
+      end
+
+      next if response['data'].nil?
+
       response['data'].each do |sta|
         attrs = {
           sport_id: s.id,

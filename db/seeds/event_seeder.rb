@@ -15,7 +15,12 @@ class EventSeeder
     next_cursor = nil
     @leagues.each do |l|
       loop do
-        response = @client.events(l.sport.sport_id, l.short_name, Date.today, next_cursor: next_cursor)
+        response = @client.events(l.sport.sport_id, l.short_name, 1.month.ago, next_cursor: next_cursor)
+
+        if response.try(:[], 'error') == 'Rate limit exceeded'
+          sleep 70
+          response = @client.events(l.sport.sport_id, l.short_name, 1.month.ago, next_cursor: next_cursor)
+        end
 
         next_cursor = response['nextCursor']
 
@@ -27,16 +32,16 @@ class EventSeeder
             event_id: e['eventID'],
             info: e['info'],
             status: e['status'],
-            results: e['results']
+            results: e['results'],
+            starts_at: DateTime.parse(e['status']['startsAt'])
           }
 
           unless e['teams'].nil?
             home_team = Team.find_by(team_id: e['teams']['home']['teamID'])
-            binding.pry if home_team.nil?
-            attrs.merge({ home_team_id: home_team.team_id })
+            attrs.merge({ home_team_id: home_team.id })
 
             away_team = Team.find_by(team_id: e['teams']['away']['teamID'])
-            attrs.merge!({ away_team_id: away_team.team_id })
+            attrs.merge!({ away_team_id: away_team.id })
           end
 
           event = Event.create!(attrs)

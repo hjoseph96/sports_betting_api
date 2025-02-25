@@ -15,6 +15,11 @@ class PlayerSeeder
       loop do
         response = @client.players(t.team_id, next_cursor: next_cursor)
 
+        if response.try(:[], 'error') == 'Rate limit exceeded'
+          sleep 70
+          response = @client.players(t.team_id, next_cursor: next_cursor)
+        end
+
         next_cursor = response['nextCursor']
 
         break if response['data'].nil?
@@ -48,7 +53,5 @@ class PlayerSeeder
         break if next_cursor.nil?
       end
     end
-
-
   end
 end

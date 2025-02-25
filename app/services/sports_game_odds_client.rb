@@ -18,7 +18,7 @@ class SportsGameOddsClient
   end
 
   def teams(league_id, next_cursor: nil)
-    path = "/teams?leagueID=#{league_id}"
+    path = "/teams?leagueID=#{league_id}&limit=100"
     path += "&cursor=#{next_cursor}" unless next_cursor.nil?
 
     self.class.get(path, @options)
@@ -36,7 +36,7 @@ class SportsGameOddsClient
   end
 
   def events(sport_id, league_id, starts_before, next_cursor: nil)
-    path = "/events?sportID=#{sport_id}&leagueID=#{league_id}&startsAfter=#{starts_before}&oddsAvailable=true"
+    path = "/events?sportID=#{sport_id}&leagueID=#{league_id}&startsAfter=#{starts_before}&oddsAvailable=true&limit=100"
     path += "&cursor=#{next_cursor}" unless next_cursor.nil?
 
     self.class.get(path, @options)

@@ -15,7 +15,7 @@ class SportsSeeder
 
       meta = {
         'pointWord' => s['pointWord'],
-        'eventWord' => s['eventWord'],
+        'eventWord' => s['eventWord']
       }
 
       s = Sport.create(

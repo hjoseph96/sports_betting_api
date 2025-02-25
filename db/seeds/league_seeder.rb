@@ -10,6 +10,11 @@ class LeagueSeeder
   def create_leagues
     response = @client.leagues
 
+    if response.try(:[], 'error') == 'Rate limit exceeded'
+      sleep 70
+      response = @client.leagues
+    end
+
     response['data'].each do |l|
       next if League.exists?(short_name: l['shortName'])
 
