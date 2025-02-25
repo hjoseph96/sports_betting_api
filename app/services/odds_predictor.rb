@@ -16,6 +16,3 @@ class OddsPredictor
   def self.predict_event_outcome(event)
   end
 end
-
-
-pyfrom :'numpy', import: :numpy
