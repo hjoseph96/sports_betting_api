@@ -9,7 +9,7 @@ class CreateEvents < ActiveRecord::Migration[8.0]
       t.jsonb :results
       t.uuid :home_team_id
       t.uuid :away_team_id
-      t.datetime :start_at
+      t.datetime :starts_at
 
       t.timestamps
     end

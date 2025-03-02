@@ -12,10 +12,19 @@ class OddsSeeder
       # Get the odds data JSON
       o = o.last
 
-      stat_id = Stat.find_by(stat_id: o['statID']).id
+      stat_id = Stat.find_by(stat_id: o['statID']).try(:id)
+
+      next if stat_id.nil?
+
+      player = nil
+      if o['playerID'].present?
+        player = Player.find_by(player_id: o['playerID'])
+
+        next if player.nil?
+      end
 
       attrs = {
-        event_id: event.event_id,
+        event_id: event.id,
         stat_id: stat_id,
         odd_type: o['oddType'],
         odd_id: o['oddID'],
@@ -33,12 +42,13 @@ class OddsSeeder
         fair_odds_available: o['fairOddsAvailable']
       }
 
-      attrs.merge!({ player_id: Player.find_by(player_id:  o['playerID']).id }) if o['playerID'].present?
       attrs.merge!({ fair_odds: o['fairOdds'].to_f.round(10) }) if attrs[:fair_odds_available]
       attrs.merge!({ book_odds: o['bookOdds'].to_f.round(10) }) if attrs[:book_odds_available]
 
       attrs.merge!({ fair_over_under: o['fairOverUnder'].to_f.round(10) }) if o['fairOverUnder'].present?
       attrs.merge!({ open_fair_odds: o['openFairOdds'].to_f.round(10) }) if o['openFairOdds'].present?
+      attrs.merge!({ open_book_odds: o['openBookOdds'].to_f.round(10) }) if o['openBookOdds'].present?
+      attrs.merge!({ open_fair_over_under: o['openFairOverUnder'].to_f.round(10) }) if o['openFairOverUnder'].present?
       attrs.merge!({ open_book_over_under: o['openBookOverUnder'].to_f.round(10) }) if o['openBookOverUnder'].present?
       attrs.merge!({ fair_spread: o['fairSpread'].to_f.round(10) }) if o['fairSpread'].present?
       attrs.merge!({ book_spend: o['bookSpend'].to_f.round(10) }) if o['fairSpend'].present?
@@ -47,13 +57,13 @@ class OddsSeeder
 
       odds = Odds.create(attrs)
 
-      event.odds << odds
-
-      begin
-        event.save!
-      rescue PG::NumericValueOutOfRange
-        binding.pry
+      unless player.nil?
+        odds.players << player
+        odds.save!
       end
+
+      event.odds << odds
+      event.save!
 
       puts "CREATED ODDS(#{odds.odd_id}) FOR EVENT(#{event.event_id})"
     end

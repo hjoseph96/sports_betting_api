@@ -15,6 +15,11 @@ class PlayerSeeder
       loop do
         response = @client.players(t.team_id, next_cursor: next_cursor)
 
+        if response.try(:[], 'error').try(:include?, 'Please upgrade for access')
+          puts "SKIPPING #{t.team_id} due to API access..."
+          break
+        end
+
         if response.try(:[], 'error') == 'Rate limit exceeded'
           sleep 70
           response = @client.players(t.team_id, next_cursor: next_cursor)
@@ -22,10 +27,10 @@ class PlayerSeeder
 
         next_cursor = response['nextCursor']
 
-        break if response['data'].nil?
+        break if response['data'].nil? || response['data'].empty?
 
         response['data'].each do |p|
-          next if Player.exists?(player_id: t['playerID'])
+          next if Player.exists?(player_id: p['playerID'])
 
           attrs = {
             team_id: t.id,

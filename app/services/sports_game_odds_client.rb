@@ -35,8 +35,9 @@ class SportsGameOddsClient
     self.class.get("/stats?sportID=#{sport_id}", @options)
   end
 
-  def events(sport_id, league_id, starts_before, next_cursor: nil)
-    path = "/events?sportID=#{sport_id}&leagueID=#{league_id}&startsAfter=#{starts_before}&oddsAvailable=true&limit=100"
+  def events(sport_id, league_id, starts_after, next_cursor: nil, odds_available: true, finalized: false)
+    path = "/events?sportID=#{sport_id}&leagueID=#{league_id}&startsAfter=#{starts_after}"
+    path += "&oddsAvailable=#{odds_available}&finalized=#{finalized}&limit=100"
     path += "&cursor=#{next_cursor}" unless next_cursor.nil?
 
     self.class.get(path, @options)

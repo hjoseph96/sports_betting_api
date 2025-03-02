@@ -10,10 +10,19 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema[8.0].define(version: 2025_02_20_175420) do
+ActiveRecord::Schema[8.0].define(version: 2025_02_27_233037) do
   # These are extensions that must be enabled in order to support this database
   enable_extension "pg_catalog.plpgsql"
   enable_extension "pgcrypto"
+
+  create_table "event_players", force: :cascade do |t|
+    t.uuid "player_id", null: false
+    t.uuid "event_id", null: false
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+    t.index ["event_id"], name: "index_event_players_on_event_id"
+    t.index ["player_id"], name: "index_event_players_on_player_id"
+  end
 
   create_table "events", id: :uuid, default: -> { "gen_random_uuid()" }, force: :cascade do |t|
     t.string "event_id"
@@ -24,7 +33,7 @@ ActiveRecord::Schema[8.0].define(version: 2025_02_20_175420) do
     t.jsonb "results"
     t.uuid "home_team_id"
     t.uuid "away_team_id"
-    t.datetime "start_at"
+    t.datetime "starts_at"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
     t.index ["away_team_id"], name: "index_events_on_away_team_id"
@@ -58,19 +67,19 @@ ActiveRecord::Schema[8.0].define(version: 2025_02_20_175420) do
     t.boolean "cancelled"
     t.boolean "book_odds_available"
     t.boolean "fair_odds_available"
-    t.decimal "fair_odds", precision: 15, scale: 10
-    t.decimal "book_odds", precision: 15, scale: 10
+    t.decimal "fair_odds", precision: 25, scale: 10
+    t.decimal "book_odds", precision: 25, scale: 10
     t.boolean "scoring_supported"
     t.jsonb "by_bookmaker"
-    t.decimal "fair_over_under", precision: 15, scale: 10
-    t.decimal "open_fair_odds", precision: 15, scale: 10
-    t.decimal "open_book_odds", precision: 15, scale: 10
-    t.decimal "open_fair_over_under", precision: 15, scale: 10
-    t.decimal "open_book_over_under", precision: 15, scale: 10
-    t.decimal "fair_spread", precision: 15, scale: 10
-    t.decimal "book_spend", precision: 15, scale: 10
-    t.decimal "open_fair_spread", precision: 15, scale: 10
-    t.decimal "open_book_spread", precision: 15, scale: 10
+    t.decimal "fair_over_under", precision: 25, scale: 10
+    t.decimal "open_fair_odds", precision: 25, scale: 10
+    t.decimal "open_book_odds", precision: 25, scale: 10
+    t.decimal "open_fair_over_under", precision: 25, scale: 10
+    t.decimal "open_book_over_under", precision: 25, scale: 10
+    t.decimal "fair_spread", precision: 25, scale: 10
+    t.decimal "book_spend", precision: 25, scale: 10
+    t.decimal "open_fair_spread", precision: 25, scale: 10
+    t.decimal "open_book_spread", precision: 25, scale: 10
     t.uuid "player_id"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
@@ -80,7 +89,16 @@ ActiveRecord::Schema[8.0].define(version: 2025_02_20_175420) do
     t.index ["stat_id"], name: "index_odds_on_stat_id"
   end
 
-  create_table "parlay_bets", force: :cascade do |t|
+  create_table "odds_players", force: :cascade do |t|
+    t.uuid "odds_id", null: false
+    t.uuid "player_id", null: false
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+    t.index ["odds_id"], name: "index_odds_players_on_odds_id"
+    t.index ["player_id"], name: "index_odds_players_on_player_id"
+  end
+
+  create_table "parlay_bets", id: :uuid, default: -> { "gen_random_uuid()" }, force: :cascade do |t|
     t.uuid "parlay_id", null: false
     t.uuid "event_id", null: false
     t.uuid "odds_id", null: false
@@ -200,11 +218,15 @@ ActiveRecord::Schema[8.0].define(version: 2025_02_20_175420) do
     t.index ["reset_password_token"], name: "index_users_on_reset_password_token", unique: true
   end
 
+  add_foreign_key "event_players", "events"
+  add_foreign_key "event_players", "players"
   add_foreign_key "events", "leagues"
   add_foreign_key "leagues", "sports"
   add_foreign_key "odds", "events"
   add_foreign_key "odds", "players"
   add_foreign_key "odds", "stats"
+  add_foreign_key "odds_players", "odds", column: "odds_id"
+  add_foreign_key "odds_players", "players"
   add_foreign_key "parlay_bets", "events"
   add_foreign_key "parlay_bets", "odds", column: "odds_id"
   add_foreign_key "parlay_bets", "parlays"

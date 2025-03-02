@@ -15,19 +15,19 @@ class CreateOdds < ActiveRecord::Migration[8.0]
       t.boolean :cancelled
       t.boolean :book_odds_available
       t.boolean :fair_odds_available
-      t.decimal :fair_odds, precision: 15, scale: 10
-      t.decimal :book_odds, precision: 15, scale: 10
+      t.decimal :fair_odds, precision: 25, scale: 10
+      t.decimal :book_odds, precision: 25, scale: 10
       t.boolean :scoring_supported
       t.jsonb :by_bookmaker
-      t.decimal :fair_over_under, precision: 15, scale: 10
-      t.decimal :open_fair_odds, precision: 15, scale: 10
-      t.decimal :open_book_odds, precision: 15, scale: 10
-      t.decimal :open_fair_over_under, precision: 15, scale: 10
-      t.decimal :open_book_over_under, precision: 15, scale: 10
-      t.decimal :fair_spread, precision: 15, scale: 10
-      t.decimal :book_spend, precision: 15, scale: 10
-      t.decimal :open_fair_spread, precision: 15, scale: 10
-      t.decimal :open_book_spread, precision: 15, scale: 10
+      t.decimal :fair_over_under, precision: 25, scale: 10
+      t.decimal :open_fair_odds, precision: 25, scale: 10
+      t.decimal :open_book_odds, precision: 25, scale: 10
+      t.decimal :open_fair_over_under, precision: 25, scale: 10
+      t.decimal :open_book_over_under, precision: 25, scale: 10
+      t.decimal :fair_spread, precision: 25, scale: 10
+      t.decimal :book_spend, precision: 25, scale: 10
+      t.decimal :open_fair_spread, precision: 25, scale: 10
+      t.decimal :open_book_spread, precision: 25, scale: 10
       t.references :player, null: true, foreign_key: true, type: :uuid
 
       t.timestamps

@@ -10,6 +10,11 @@ class SportsSeeder
   def create_sports
     response = @client.sports
 
+    if response.try(:[], 'error') == 'Rate limit exceeded'
+      sleep 70
+      response = @client.sports
+    end
+
     response['data'].each do |s|
       next if Sport.exists?(sport_id: s['sportID'])
 
