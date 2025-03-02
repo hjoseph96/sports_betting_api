@@ -6,19 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="ab215492-3775-48c9-afdf-3ae09c263509" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/models/event.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/event.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/models/odds.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/odds.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/models/player.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/player.rb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/services/odds_predictor.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/services/odds_predictor.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/services/sports_game_odds_client.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/services/sports_game_odds_client.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/migrate/20250219182157_create_events.rb" beforeDir="false" afterPath="$PROJECT_DIR$/db/migrate/20250219182157_create_events.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/migrate/20250219193230_create_odds.rb" beforeDir="false" afterPath="$PROJECT_DIR$/db/migrate/20250219193230_create_odds.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/migrate/20250220175420_create_parlay_bets.rb" beforeDir="false" afterPath="$PROJECT_DIR$/db/migrate/20250220175420_create_parlay_bets.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/schema.rb" beforeDir="false" afterPath="$PROJECT_DIR$/db/schema.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/seeds/event_seeder.rb" beforeDir="false" afterPath="$PROJECT_DIR$/db/seeds/event_seeder.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/seeds/odds_seeder.rb" beforeDir="false" afterPath="$PROJECT_DIR$/db/seeds/odds_seeder.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/seeds/player_seeder.rb" beforeDir="false" afterPath="$PROJECT_DIR$/db/seeds/player_seeder.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/seeds/sports_seeder.rb" beforeDir="false" afterPath="$PROJECT_DIR$/db/seeds/sports_seeder.rb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -143,7 +131,7 @@
       <updated>1739974517164</updated>
       <workItem from="1739974518352" duration="40102000" />
       <workItem from="1740428998350" duration="719000" />
-      <workItem from="1740505964938" duration="48049000" />
+      <workItem from="1740505964938" duration="48071000" />
     </task>
     <servers />
   </component>
