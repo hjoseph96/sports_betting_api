@@ -5,7 +5,7 @@ class OddsPredictor
 
   attr_reader :numpy
 
-  ODDS_TYPES = %w[over/under moneyline spread]
+  ODDS_TYPES = %w[ou moneyline spread]
 
   def initialize
     pyfrom :'sklearn.ensemble', import: :RandomForestClassifier
@@ -15,6 +15,6 @@ class OddsPredictor
     @numpy = PyCall.import_module("numpy")
   end
 
-  def self.predict_event_outcome(event)
+  def self.predict_points_over_under
   end
 end

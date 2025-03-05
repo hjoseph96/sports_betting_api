@@ -8,4 +8,8 @@ class Event < ApplicationRecord
 
   has_many :event_players
   has_many :players, through: :event_players
+
+  def self.where_team_id(team_id)
+    Event.where('home_team_id = ? OR away_team_id = ?', team_id, team_id)
+  end
 end

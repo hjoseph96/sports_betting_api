@@ -16,13 +16,6 @@ class OddsSeeder
 
       next if stat_id.nil?
 
-      player = nil
-      if o['playerID'].present?
-        player = Player.find_by(player_id: o['playerID'])
-
-        next if player.nil?
-      end
-
       attrs = {
         event_id: event.id,
         stat_id: stat_id,
@@ -54,6 +47,15 @@ class OddsSeeder
       attrs.merge!({ book_spend: o['bookSpend'].to_f.round(10) }) if o['fairSpend'].present?
       attrs.merge!({ open_fair_spread: o['openFairSpread'].to_f.round(10) }) if o['openFairSpread'].present?
       attrs.merge!({ open_book_spread: o['openBookSpread'].to_f.round(10) }) if o['openBookSpread'].present?
+
+      player = nil
+      if o['playerID'].present?
+        player = Player.find_by(player_id: o['playerID'])
+
+        next if player.nil?
+
+        attrs.merge!({ player_id: o['playerID'] })
+      end
 
       odds = Odds.create(attrs)
 
