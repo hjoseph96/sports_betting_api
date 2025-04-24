@@ -105,7 +105,7 @@ GEM
     et-orbi (1.2.11)
       tzinfo
     fiber-storage (1.0.0)
-    fiddle (1.1.6)
+    fiddle (1.1.7)
     fugit (1.11.1)
       et-orbi (~> 1, >= 1.2.11)
       raabro (~> 1.4)
