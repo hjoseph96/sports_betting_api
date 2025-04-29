@@ -12,4 +12,17 @@ class Event < ApplicationRecord
   def self.where_team_id(team_id)
     Event.where('home_team_id = ? OR away_team_id = ?', team_id, team_id)
   end
+
+  def home_or_away?(team_id)
+    return 'home' if self.home_team_id == team_id
+    return 'away' if self.away_team_id == team_id
+
+    'neither'
+  end
+end
+
+past_events.map do |e|
+  home_or_away_key = e.home_or_away?(team.id)
+
+  e.results['game'][home_or_away_key]['points']
 end

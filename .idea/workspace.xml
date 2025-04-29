@@ -7,8 +7,6 @@
     <list default="true" id="ab215492-3775-48c9-afdf-3ae09c263509" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/models/event.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/event.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/services/odds_predictor.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/services/odds_predictor.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/seeds/odds_seeder.rb" beforeDir="false" afterPath="$PROJECT_DIR$/db/seeds/odds_seeder.rb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -133,7 +131,9 @@
       <updated>1739974517164</updated>
       <workItem from="1739974518352" duration="40102000" />
       <workItem from="1740428998350" duration="719000" />
-      <workItem from="1740505964938" duration="53793000" />
+      <workItem from="1740505964938" duration="54391000" />
+      <workItem from="1741701178471" duration="3302000" />
+      <workItem from="1743352433388" duration="32000" />
     </task>
     <servers />
   </component>
