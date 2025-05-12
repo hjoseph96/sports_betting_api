@@ -203,7 +203,7 @@ GEM
       method_source (~> 1.0)
     pry-rails (0.3.11)
       pry (>= 0.13.0)
-    psych (5.2.3)
+    psych (5.2.5)
       date
       stringio
     puma (6.6.0)
@@ -211,8 +211,8 @@ GEM
     pycall (1.5.2)
     raabro (1.4.0)
     racc (1.8.1)
-    rack (3.1.13)
-    rack-session (2.1.0)
+    rack (3.1.14)
+    rack-session (2.1.1)
       base64 (>= 0.1.0)
       rack (>= 3.0.0)
     rack-test (2.2.0)
@@ -288,7 +288,7 @@ GEM
       rubocop-rails (>= 2.30)
     ruby-progressbar (1.13.0)
     securerandom (0.4.1)
-    solid_cable (3.0.7)
+    solid_cable (3.0.8)
       actioncable (>= 7.2)
       activejob (>= 7.2)
       activerecord (>= 7.2)
